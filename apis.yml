@@ -1,7 +1,24 @@
 aid: habeas
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/habeas.png
 name: Habeas
-description: Habeas is a company surfaced as a portfolio company of canaan-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Habeas was an email reputation and deliverability services provider that helped legitimate
+  senders monitor and manage their sending reputation to maximize inbox deliverability, using a trademark-based
+  accreditation and safelist model to certify permission-based email. Founded in the mid-2000s and backed
+  by Canaan Partners through a Series B round, Habeas was acquired by Return Path in 2008 (habeas.com now
+  redirects to returnpath.com); Return Path was in turn acquired by Validity in 2019. The company is
+  defunct as an independent brand and publishes no live public API or developer surface, so this profile
+  is retained as a Canaan Partners portfolio-history record rather than an active API provider.
 url: https://raw.githubusercontent.com/api-evangelist/habeas/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +26,31 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Acquired by Return Path (2008); Return Path later acquired by Validity (2019). habeas.com
+  redirects to returnpath.com. No live independent API or developer surface.
+x-is-api-provider: false
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Email
+- Email Deliverability
+- Email Reputation
+- Sender Reputation
+- Email Marketing
+- Accreditation
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
