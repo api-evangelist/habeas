@@ -30,7 +30,7 @@ x-status: defunct
 x-status-detail: Acquired by Return Path (2008); Return Path later acquired by Validity (2019). habeas.com
   redirects to returnpath.com. No live independent API or developer surface.
 x-is-api-provider: false
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
